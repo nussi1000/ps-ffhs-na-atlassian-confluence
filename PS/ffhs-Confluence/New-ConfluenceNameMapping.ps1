@@ -21,9 +21,8 @@
   Minimum Input value: (Name,Starwars) Where Name is the Username according to editor
 
  .Example
-   # Creates a Sessionobject wich can be used later for Invoke-WebRequest Commands
-   $S = New-ConfluenceSession -SessionUrl  -CookieValue "8754CB4ABC70DF41B80B215857DC7439" -CookieDomain "wiki.corp.com"
-   # Create Mapping list of WikiTree Output: $WikiTree | Group-Object editor | select name | Export-Csv mapper-name.csv
+   # Inputs a List of Names which needs to be replaced with the Mapping Table
+   $o = New-ConfluenceNameMapping -InputFile .\analysis100.csv -MatchingtableFile .\mapper-name.csv
 
 #>
 
