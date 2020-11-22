@@ -1,8 +1,8 @@
 <p align="center"><img width="400" alt="Logo" src="https://www.ffhs.ch/typo3conf/ext/is_design/Resources/Public/img/logo.png"></p>
 
-* *Course:* NA, Network-Analysis, INF-V-DS004 \
-* *Class:* BE1, HS20/21 \
-* *Author:* Tim Nussbaumer
+* **Course:** NA, Network-Analysis, INF-V-DS004 
+* **Class:** BE1, HS20/21 
+* **Author:** Tim Nussbaumer
 
 
 # ps-ffhs-na-atlassian-confluence
@@ -17,7 +17,7 @@ For the API Reference please use the Link above.
 
 This Script extends the possibility to add Session Cookies to API commands. In some cases you need an Authentication to query the Atlassian Confluence API.
 
-After you have added the Path to the $env:PSModulePath the Module is loaded with the following Command:
+After you have added the Path to the `$env:PSModulePath` the Module is loaded with the following Command:
 
 ```
 Import-Module ffhs-Confluence -Force
