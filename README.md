@@ -1,4 +1,4 @@
-<p align="center"><img width="200" alt="Logo" src="https://www.ffhs.ch/typo3conf/ext/is_design/Resources/Public/img/logo.png"></p>
+<p align="l"><img width="200" alt="Logo" src="https://www.ffhs.ch/typo3conf/ext/is_design/Resources/Public/img/logo.png"></p>
 
 * **Course:** NA, Network-Analysis, INF-V-DS004 
 * **Class:** BE1, HS20/21 
@@ -9,7 +9,7 @@
 PowerShell Scripts for Information retreival of Atlassian Confluence API
 
 ## 📌 Description
-This Powershell script is developed during a Network Analysis Course at FFHS (Fernfachhochschule Schweiz) \
+This Powershell script is developed during a Network Analysis Course at FFHS (Fernfachhochschule Schweiz) 
 
 
 Atlassian Confluence provides a API to query the Data: https://developer.atlassian.com/server/confluence/confluence-server-rest-api/ \
@@ -25,7 +25,9 @@ Import-Module ffhs-Confluence -Force
 
 
 ## ⚙️ Functions
-**Get-ConfluenceWikiTree**
+```
+Get-ConfluenceWikiTree
+```
 
 This Function Requires a Root of a Wiki-Page and takes all its nodes below and gives it back as an output. If you input an array of roots all of connected nodes will be returned
 
