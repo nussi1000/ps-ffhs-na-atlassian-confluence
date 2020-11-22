@@ -1,11 +1,9 @@
 <p align="center"><img width="200" alt="Logo" src="https://www.ffhs.ch/typo3conf/ext/is_design/Resources/Public/img/logo.png"></p>
 
+# ps-ffhs-na-atlassian-confluence
 * **Course:** NA, Network-Analysis, INF-V-DS004 
 * **Class:** BE1, HS20/21 
 * **Author:** Tim Nussbaumer
-
-
-# ps-ffhs-na-atlassian-confluence
 PowerShell Scripts for Information retreival of Atlassian Confluence API
 
 ## 📌 Description
