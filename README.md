@@ -1,4 +1,4 @@
-<p align="center"><img width="400" alt="Logo" src="https://www.ffhs.ch/typo3conf/ext/is_design/Resources/Public/img/logo.png"></p>
+<p align="center"><img width="200" alt="Logo" src="https://www.ffhs.ch/typo3conf/ext/is_design/Resources/Public/img/logo.png"></p>
 
 * **Course:** NA, Network-Analysis, INF-V-DS004 
 * **Class:** BE1, HS20/21 
