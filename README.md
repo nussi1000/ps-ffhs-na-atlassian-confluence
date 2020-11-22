@@ -4,10 +4,10 @@
 * **Course:** NA, Network-Analysis, INF-V-DS004 
 * **Class:** BE1, HS20/21 
 * **Author:** Tim Nussbaumer
-PowerShell Scripts for Information retreival of Atlassian Confluence API
+
 
 ## 📌 Description
-This Powershell script is developed during a Network Analysis Course at FFHS (Fernfachhochschule Schweiz) 
+PowerShell Scripts for Information retreival of Atlassian Confluence API. This Powershell script is developed during a Network Analysis Course at FFHS (Fernfachhochschule Schweiz) 
 
 
 Atlassian Confluence provides a API to query the Data: https://developer.atlassian.com/server/confluence/confluence-server-rest-api/ \
