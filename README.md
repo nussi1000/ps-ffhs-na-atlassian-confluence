@@ -13,13 +13,14 @@ This Script extends the possibility to add Session Cookies to API commands. In s
 
 ## Functions
 **Get-ConfluenceWikiTree**
+
 This Function Requires a Root of a Wiki-Page and takes all its nodes below and gives it back as an output. If you input an array of roots all of connected nodes will be returned
 
-**Get-ConfluencWikiPagesOnly**
+**Get-ConfluencWikiPagesOnly** \
 From a List, Values are grouped by id and returned
 
-**New-ConfluenceNameMapping**
+**New-ConfluenceNameMapping** \
 This Function maps known corporate User with the help of a matching table
 
-**New-ConfluenceSession**
+**New-ConfluenceSession** \
 PowerShell Scripts for Information retreival of Atlassian Confluence API. Including Session authentication for Corporate use
