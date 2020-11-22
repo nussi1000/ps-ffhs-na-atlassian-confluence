@@ -32,14 +32,32 @@ function New-ConfluenceSession {
 
 Param ($CookieValue,$CookieDomain)
 
+add-type @"
+    using System.Net;
+    using System.Security.Cryptography.X509Certificates;
+    public class TrustAllCertsPolicy : ICertificatePolicy {
+        public bool CheckValidationResult(
+            ServicePoint srvPoint, X509Certificate certificate,
+            WebRequest request, int certificateProblem) {
+            return true;
+        }
+    }
+"@
+[System.Net.ServicePointManager]::CertificatePolicy = New-Object TrustAllCertsPolicy
+
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+
+
+
+
+
     $session = New-Object Microsoft.PowerShell.Commands.WebRequestSession
     $cookie = New-Object System.Net.Cookie 
     $cookie.Name = "JSESSIONID"
     $cookie.Value = $CookieValue
     $cookie.Domain = $CookieDomain
     $session.Cookies.Add($cookie)
-    Write-Host "tst"
     return $session
 }
 
-Export-ModuleMember -Function New-ConfluenceSession
+Export-ModuleMember -Function New-ConfluenceSession -Verbose
