@@ -58,7 +58,7 @@ PowerShell Scripts for Information retreival of Atlassian Confluence API. Includ
 # NestedModules = @()
 
 # Functions to export from this module
-FunctionsToExport = '{New-ConfluenceSession, New-ConfluenceNameMapping1, Get-ConfluenceWikiTree, Get-ConfluencWikiPagesOnly}'
+FunctionsToExport = '{New-ConfluenceSession, New-ConfluenceNameMapping1, Get-ConfluenceWikiTree, Get-ConfluencWikiPagesOnly, Get-ConfluenceNATuplePermutations}'
 
 # Cmdlets to export from this module
 CmdletsToExport = '*'
