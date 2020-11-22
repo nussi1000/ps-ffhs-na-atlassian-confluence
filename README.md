@@ -27,3 +27,7 @@ This Function maps known corporate User with the help of a matching table
 **New-ConfluenceSession**
 
 PowerShell Scripts for Information retreival of Atlassian Confluence API. Including Session authentication for Corporate use
+
+**Get-ConfluenceNATuplePermutations**
+
+Creates Tuples from every User who worked with another user on the same Page
