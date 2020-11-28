@@ -10,6 +10,7 @@
 Containing
 - Powershell Module
 - Pyhton Functions
+
 PowerShell Scripts for Information retreival of Atlassian Confluence API. This Powershell script is developed during a Network Analysis Course at FFHS (Fernfachhochschule Schweiz) 
 
 Atlassian Confluence provides a API to query the Data: https://developer.atlassian.com/server/confluence/confluence-server-rest-api/ \
