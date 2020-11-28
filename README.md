@@ -7,8 +7,10 @@
 
 
 ## üìå Description
+Containing
+- Powershell Module
+- Pyhton Functions
 PowerShell Scripts for Information retreival of Atlassian Confluence API. This Powershell script is developed during a Network Analysis Course at FFHS (Fernfachhochschule Schweiz) 
-
 
 Atlassian Confluence provides a API to query the Data: https://developer.atlassian.com/server/confluence/confluence-server-rest-api/ \
 For the API Reference please use the Link above.
@@ -22,7 +24,7 @@ Import-Module ffhs-Confluence -Force
 ```
 
 
-## ‚öôÔ∏è Functions
+## :shell: Powershell∏è Functions
 **Get-ConfluenceWikiTree**
 
 This Function Requires a Root of a Wiki-Page and takes all its nodes below and gives it back as an output. If you input an array of roots all of connected nodes will be returned
@@ -42,3 +44,29 @@ PowerShell Scripts for Information retreival of Atlassian Confluence API. Includ
 **Get-ConfluenceNATuplePermutations**
 
 Creates Tuples from every User who worked with another user on the same Page
+
+## :snake: Python
+
+The Python functions can be used to read Data from a .csv File and do some preparation for Data visualization and calculation with Networkx
+
+** get_highest_degree(G,num=1)**
+Gets the Node with highest degree
+
+
+** get_all_with_degree(G, deg=1) **
+Get all Nodes with a specific degree
+
+** get_highest_betweenness(G,num=1) **
+Get nodes with highes Betwenness centrality sorted DESC from highest till num Values
+
+** generate_random_graph(n, p) **
+Generates a Erdˆs-Renyi Graph with probability p of connected nodes
+
+**remove_node_degree(G,minimum=0)**
+Removes node with specific degree
+
+** new_graph(source) **
+Generates a Graph from a .csv File and returns the NetworkX Graph object
+
+**show_graph(G)**
+Displays the Graph G as a Matplotlib Plot with some default configuration
