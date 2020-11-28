@@ -4,6 +4,7 @@
 * **Course:** NA, Network-Analysis, INF-V-DS004 
 * **Class:** BE1, HS20/21 
 * **Author:** Tim Nussbaumer
+* **Date:** 28.11.2020
 
 
 ## :page_with_curl: Description
