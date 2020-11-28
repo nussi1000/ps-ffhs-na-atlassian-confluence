@@ -70,7 +70,7 @@ Generates a Erdös-Renyi Graph with probability p of connected nodes
 
 Removes node with specific degree
 
-** new_graph(source)**
+**new_graph(source)**
 
 Generates a Graph from a .csv File and returns the NetworkX Graph object
 
