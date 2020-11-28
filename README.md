@@ -24,7 +24,7 @@ Import-Module ffhs-Confluence -Force
 ```
 
 
-## :shell: Powershell∏è Functions
+## :shell: Powershell Functions
 **Get-ConfluenceWikiTree**
 
 This Function Requires a Root of a Wiki-Page and takes all its nodes below and gives it back as an output. If you input an array of roots all of connected nodes will be returned
