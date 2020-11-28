@@ -50,23 +50,30 @@ Creates Tuples from every User who worked with another user on the same Page
 The Python functions can be used to read Data from a .csv File and do some preparation for Data visualization and calculation with Networkx
 
 ** get_highest_degree(G,num=1)**
+
 Gets the Node with highest degree
 
 
 ** get_all_with_degree(G, deg=1) **
+
 Get all Nodes with a specific degree
 
 ** get_highest_betweenness(G,num=1) **
+
 Get nodes with highes Betwenness centrality sorted DESC from highest till num Values
 
 ** generate_random_graph(n, p) **
+
 Generates a Erdös-Renyi Graph with probability p of connected nodes
 
 **remove_node_degree(G,minimum=0)**
+
 Removes node with specific degree
 
 ** new_graph(source) **
+
 Generates a Graph from a .csv File and returns the NetworkX Graph object
 
 **show_graph(G)**
+
 Displays the Graph G as a Matplotlib Plot with some default configuration
